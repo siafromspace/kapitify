@@ -14,7 +14,7 @@ const Main = () => {
                 <p className="contact w-full text-dark-blue -mt-4 sm:-mt-0 text-3xl font-bold text-center z-20 absolute left-1/2 -translate-x-1/2">Contact Us</p>
             </div>
             <div className="flex flex-col w-full items-center gap-[76px]">
-                <div className="w-full space-y-4 flex flex-col items-start md:items-center z-50">
+                <div className="w-full space-y-4 flex flex-col items-start md:items-center z-50 md:mt-12">
                     <h1 className="block md:hidden text-black text-[25px] font-bold ">Need help?</h1>
                     <p className="text-600 text-black text-lg font-medium text-start md:text-[25px] md:font-semibold md:text-center max-w-[566px]">Efficient customer service to ensure the quality of our service.</p>
                 </div>
