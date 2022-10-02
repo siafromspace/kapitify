@@ -70,3 +70,14 @@ body {
     @apply text-[16px] text-off-black text-center font-medium
   }
 }
+
+@media only screen and (max-width: 640px) and (min-width: 480px) {
+  .bg {
+    margin-top: -9rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .bg {
+    margin-top: -0.5rem;
+  }
+}
