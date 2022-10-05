@@ -1,15 +1,15 @@
-import Logo from "../assets/logo.svg"
+import Logo from "../assets/logo-footer.svg"
 import { FaTwitter, FaFacebookSquare, FaInstagram } from "react-icons/fa"
 
 const Footer = () => {
     return (
-        <footer className="bg-white w-full p-8 flex flex-col gap-8">
+        <footer className="bg-white w-full px-[3vw] py-8 flex flex-col gap-8">
             <div className="space-y-6">
                 <img src={Logo} alt="logo" />
-                <div className="text-dark-blue flex gap-8">
-                    <FaTwitter className="w-[20px] h-[20px]" />
-                    <FaFacebookSquare className="w-[20px] h-[20px]" />
-                    <FaInstagram className="w-[20px] h-[20px]" />
+                <div className="text-dark-blue flex gap-4">
+                    <FaTwitter className="w-[24px] h-[24px]" />
+                    <FaFacebookSquare className="w-[24px] h-[24px]" />
+                    <FaInstagram className="w-[24px] h-[24px]" />
                 </div>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-0">
@@ -18,7 +18,7 @@ const Footer = () => {
                     <li>How It Works</li>
                     <li>Features</li>
                     <li>Browse Categories</li>
-                    <li>Kapitify Pro <span className="hidden md:inline-block bg-dark-blue text-white text-[10px] px-2 py-[2px] align-top rounded-xl">Coming Soon</span></li>
+                    <li>Kapitify Pro <span className="hidden md:inline-block bg-dark-blue text-white text-[8px] px-3 py-0 text-light align-top rounded-2xl tracking-wider">Coming Soon</span></li>
                 </ul>
                 <ul className="text-off-gray text-sm font-light flex flex-col items-end md:items-start gap-6">
                     <li className="font-bold text-[16px] text-dark-blue text-end md:text-start">Support & Resources</li>

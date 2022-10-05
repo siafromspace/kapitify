@@ -3,25 +3,21 @@ import Trust from "../assets/trust.svg"
 import Availability from "../assets/availability.svg"
 import Email from "../assets/email.svg"
 import Phone from "../assets/phone.svg"
-import Background from "../assets/bg-desktop.svg"
-import MobileBG from "../assets/bg-mobile.svg"
 import { HiArrowNarrowRight } from "react-icons/hi"
 
 const Main = () => {
     return (
-        <main className="w-full space-y-12 pb-12 px-6 sm:px-12 relative  mt-[63.7px]">
-            <div className="py-8 sm:py-12 w-full mt-0">
-                <img src={Background} alt="background" className="hidden md:block absolute top-0 -mt-1 md:-mt-4 lg:-mt-16 xl:-mt-24 bottom-8 w-full -mx-6 sm:-mx-12 " />
-                <img src={MobileBG} alt="background" className="bg block md:hidden absolute top-0 -mt-20 sm:-mt-52 bottom-8 w-full -mx-6 sm:-mx-12 " />
-                <p className="contact w-full text-dark-blue mt-2 sm:-mt-2 md:-mt-4 text-3xl font-bold text-center z-20 absolute left-1/2 -translate-x-1/2">Contact Us</p>
-            </div>
+        <main className="w-full contact space-y-12 pb-12 px-6 sm:px-[3vw] relative mt-[63.7px]">
+            {/* <div className="py-8 sm:py-12 w-full mt-8"> */}
+            <p className="w-full text-dark-blue text-3xl font-bold text-center z-20 py-[12vw] sm:py-[5vw]">Contact Us</p>
+            {/* </div> */}
             <div className="flex flex-col w-full items-center gap-[76px]">
                 <div className="w-full space-y-4 flex flex-col items-start md:items-center md:mt-12">
-                    <h1 className="block md:hidden text-black text-[25px] font-bold mt-24 sm:mt-12 ">Need help?</h1>
+                    <h1 className="block md:hidden text-black text-[25px] font-bold mt-16 sm:mt-12 ">Need help?</h1>
                     <p className="text-600 text-black text-lg font-medium text-start md:text-[25px] md:font-semibold md:text-center max-w-[566px]">Efficient customer service to ensure the quality of our service.</p>
                 </div>
                 <div className="bg-light-blue w-full justify-center md:max-w-[837px] md:h-[278px] flex items-center py-12 md:py-0 px-[36px] rounded-[50px] md-rounded-xl gap-4">
-                    <div className="flex flex-col gap-12 md:gap-0 md:flex-row md:justify-between md:items-start">
+                    <div className="flex flex-col gap-12 md:gap-8 md:flex-row md:justify-between md:items-start">
                         <div className="container">
                             <span className="bg-white rounded-full p-2">
                                 <img src={Speed} alt="speed" />
